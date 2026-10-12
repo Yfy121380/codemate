@@ -240,11 +240,12 @@ CodeMate 的内置工具分为几类：
 CodeMate 的上下文分层包括：
 
 - prefix: agent 身份、工具规则、工作流规则、输出规则
+- AGENTS.md：为Agent提供的项目说明以及编写规范
 - available skills: 可按需加载的 skill 名称和描述
 - runtime context: 当前日期、时区和项目记忆目录
-- relevant memory: 从长期记忆中召回的相关事实
 - history summary: compact 后的旧历史摘要
 - recent history: 最近对话和工具结果
+- relevant memory: 从长期记忆中召回的相关事实
 
 Todo 和最近调用的 Skill 保存为会话状态，需要时通过工具结果或 compact 恢复消息进入 history。可以使用 `/budget` 查看各层字符量、工具 schema 大小、估算 token 和模型上下文预算。历史过大时可以手动 `/compact`，运行时也会在需要时压缩旧 history。
 

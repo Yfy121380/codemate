@@ -18,6 +18,7 @@ dependencies = [
 [project.scripts]
 codemate = "codemate.cli:main"
 codemate-bridge = "codemate.bridge.server:main"
+codemate-github-mcp = "codemate.mcp_servers.github:main"
 
 [dependency-groups]
 dev = [
